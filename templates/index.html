@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Dropdown</title>
-</head>
-<body>
+  </head>
+  <body>
     <form method="POST" action="/">
-        <p>Select language</p>
-        <select name="language1">
-            {% for language in languages %}
-                <option value="{{ language }}" SELECTED>{{ language }}</option>
-            {% endfor %}
-        </select>
+      <p>Select language (FROM)</p>
+      <select name="language1">
+        {% for language in languages %}
+        <option value="{{ language }}" selected>{{ language }}</option>
+        {% endfor %}
+      </select>
 
-        <p>Select language</p>
-        <select name="language2">
-            {% for language in languages[1:] %}
-                <option value="{{ language }}" SELECTED>{{ language }}</option>
-            {% endfor %}
-        </select>
+      <p>Select language (TO)</p>
+      <select name="language2">
+        {% for language in languages %}
+        <option value="{{ language }}" selected>{{ language }}</option>
+        {% endfor %}
+      </select>
 
-        <input type="submit" value="Submit">
+      <input type="submit" value="Submit" />
     </form>
-</body>
+  </body>
 </html>
