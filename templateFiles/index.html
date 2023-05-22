@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <title>Dropdown</title>
+    <link rel="stylesheet" href="../staticFiles/main.css">
   </head>
   <body>
     <form method="POST" action="/">
@@ -20,7 +21,13 @@
         {% endfor %}
       </select>
 
+      <p>Input Text</p>
+      <input type="text" name="input_text" value="" />
+
       <input type="submit" value="Submit" />
+      
+      <p>->{{output_text}}</p>
+
     </form>
-  </body>
+  </body>   
 </html>
