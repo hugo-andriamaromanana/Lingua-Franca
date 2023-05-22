@@ -1,4 +1,3 @@
-
 body {
   background-color: #f1f1f1;
   font-family: Arial, Helvetica, sans-serif;
@@ -8,9 +7,9 @@ form {
   margin: 0 auto;
   width: 500px;
   padding: 1em;
-  border: 1px solid #CCC;
+  border: 1px solid #ccc;
   border-radius: 1em;
-  background-color: #FFF;
+  background-color: #fff;
 }
 
 form div + div {
@@ -23,32 +22,30 @@ label {
   text-align: right;
 }
 
-input, select {
+input,
+select {
   font: 1em sans-serif;
   width: 300px;
   box-sizing: border-box;
   border: 1px solid #999;
 }
 
-input:focus, select:focus {
+input:focus,
+select:focus {
   border-color: #000;
 }
-
-/* make the swap buttons prettier and on the side */
 
 .swap {
   margin-left: 0.5em;
   background-color: #000;
-  color: #FFF;
+  color: #fff;
   border: none;
   padding: 0.5em;
   border-radius: 0.5em;
 }
 
-/* ADD hover */
-
 .swap:hover {
-  background-color: #FFF;
+  background-color: #fff;
   color: #000;
   border: 1px solid #000;
 }
