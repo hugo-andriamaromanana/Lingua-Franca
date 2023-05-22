@@ -1,40 +1,3 @@
-/* <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Dropdown</title>
-    <link rel="stylesheet" href="/style/style.css">
-  </head>
-  <body>
-    <form method="POST" action="/">
-      <p>Select language (FROM)</p>
-      <select name="language1">
-        {% for language in languages %}
-        <option value="{{ language }}" selected>{{ language }}</option>
-        {% endfor %}
-      </select>
-
-      <p>Select language (TO)</p>
-      <select name="language2">
-        {% for language in languages %}
-        <option value="{{ language }}" selected>{{ language }}</option>
-        {% endfor %}
-      </select>
-
-      <p>Input Text</p>
-      <input type="text" name="input_text" value="" />
-
-      <input type="submit" value="Submit" />
-      
-      <p>{{output_text}}</p>
-
-    </form>
-  </body>   
-</html> */
-
-/* Make it look like google translate */
-
-/* Path: style/style.css */
 
 body {
   background-color: #f1f1f1;
@@ -71,13 +34,21 @@ input:focus, select:focus {
   border-color: #000;
 }
 
-button {
-  margin-left: 0.5em;
-}
+/* make the swap buttons prettier and on the side */
 
-button:hover {
+.swap {
+  margin-left: 0.5em;
   background-color: #000;
   color: #FFF;
+  border: none;
+  padding: 0.5em;
+  border-radius: 0.5em;
 }
 
-/* Path: templates/index.html */
+/* ADD hover */
+
+.swap:hover {
+  background-color: #FFF;
+  color: #000;
+  border: 1px solid #000;
+}

@@ -3,31 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <title>Dropdown</title>
-    <link rel="stylesheet" href="../staticFiles/main.css">
+    <link rel="stylesheet" href="../staticFiles/main.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../staticFiles/main.js"></script>
   </head>
   <body>
-    <form method="POST" action="/">
+    <form>
       <p>Select language (FROM)</p>
-      <select name="language1">
+      <select id="language1">
         {% for language in languages %}
-        <option value="{{ language }}" selected>{{ language }}</option>
+        <option value="{{ language }}">{{ language }}</option>
         {% endfor %}
       </select>
+      <button class = "swap" id="swapDropdownsBtn" type="button">Swap Dropdowns</button>
 
       <p>Select language (TO)</p>
-      <select name="language2">
+      <select id="language2">
         {% for language in languages %}
-        <option value="{{ language }}" selected>{{ language }}</option>
+        <option value="{{ language }}">{{ language }}</option>
         {% endfor %}
       </select>
 
       <p>Input Text</p>
-      <input type="text" name="input_text" value="" />
+      <input type="text" id="inputText" />
 
-      <input type="submit" value="Submit" />
+      <button class = "swap" id="submitBtn" type="button">Submit</button>
+
       
-      <p>->{{output_text}}</p>
-
+      <p>Output Text</p>
+      <input type="text" id="outputText" />
+      <button class = "swap" id="swapInputBtn" type="button">Swap Input Text</button>
     </form>
-  </body>   
+  </body>
 </html>
