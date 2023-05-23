@@ -72,7 +72,8 @@ select:focus {
   border-radius: 0.5em;
   font-size: 1em;
   cursor: pointer;
-  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  transition: background-color 0.3s ease, color 0.3s ease,
+    border-color 0.3s ease;
 }
 
 .swap:hover {
@@ -81,7 +82,6 @@ select:focus {
   border-color: #fff;
 }
 
-
 .container {
   max-width: 800px;
   margin: 0 auto;
@@ -89,7 +89,6 @@ select:focus {
 }
 
 h1 {
-  /* Center h1 */
   text-align: center;
   color: #4285f4;
 }

@@ -18,31 +18,26 @@
       <button class="swap" id="swapDropdownsBtn" type="button">
         Swap Dropdowns
       </button>
-      
+
       <p>Select language (TO)</p>
       <select id="language2">
         {% for language in languages %}
         <option value="{{ language }}">{{ language }}</option>
         {% endfor %}
       </select>
-      <button class="swap" id="historyBtn" type="button">
-        History
-      </button>
-      
-      <p id ="input" >Input Text</p>  
+      <button class="swap" id="historyBtn" type="button">History</button>
+
+      <p id="input">Input Text</p>
       <input type="text" id="inputText" />
 
       <button class="swap" id="submitBtn" type="button">Submit</button>
-      <button class="swap" id="clearBtn" type="button">
-        Clear
-      </button>
-      
+      <button class="swap" id="clearBtn" type="button">Clear</button>
+
       <p>Output Text</p>
       <input type="text" id="outputText" />
       <button class="swap" id="swapInputBtn" type="button">
         Swap Input Text
       </button>
-      
     </form>
     <script src="../staticFiles/main.js"></script>
   </body>
