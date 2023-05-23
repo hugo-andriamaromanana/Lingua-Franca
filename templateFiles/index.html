@@ -5,7 +5,6 @@
     <title>Dropdown</title>
     <link rel="stylesheet" href="../staticFiles/main.css" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="../staticFiles/main.js"></script>
   </head>
   <body>
     <form>
@@ -18,24 +17,25 @@
       <button class="swap" id="swapDropdownsBtn" type="button">
         Swap Dropdowns
       </button>
-
+      
       <p>Select language (TO)</p>
       <select id="language2">
         {% for language in languages %}
         <option value="{{ language }}">{{ language }}</option>
         {% endfor %}
       </select>
-
-      <p id ="input" >Input Text</p>
+      
+      <p id ="input" >Input Text</p>  
       <input type="text" id="inputText" />
 
       <button class="swap" id="submitBtn" type="button">Submit</button>
-
+      
       <p>Output Text</p>
       <input type="text" id="outputText" />
       <button class="swap" id="swapInputBtn" type="button">
         Swap Input Text
       </button>
     </form>
+    <script src="../staticFiles/main.js"></script>
   </body>
 </html>
