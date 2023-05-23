@@ -43,4 +43,9 @@ $(document).ready(function () {
         $("#inputText").val(outputText);
         $("#outputText").val(inputText);
     });
+    
+    $("#clearBtn").click(function () {
+        $("#inputText").val("");
+        $("#outputText").val("");
+    });
 });
