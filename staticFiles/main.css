@@ -6,20 +6,19 @@ body {
 form {
   margin: 0 auto;
   width: 500px;
-  padding: 1em;
-  border: 1px solid #ccc;
+  padding: 2em;
+  border: 1px solid #ddd;
   border-radius: 1em;
   background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#input {
+  margin-top: 30px;
 }
 
 form div + div {
-  margin-top: 1em;
-}
-
-label {
-  display: inline-block;
-  width: 90px;
-  text-align: right;
+  margin-top: 1.5em;
 }
 
 input,
@@ -27,25 +26,57 @@ select {
   font: 1em sans-serif;
   width: 300px;
   box-sizing: border-box;
-  border: 1px solid #999;
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  transition: border-color 0.3s ease;
+  margin-top: 0.5em;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 0.5em;
 }
 
 input:focus,
 select:focus {
-  border-color: #000;
+  outline: none;
+  border-color: #4285f4;
+}
+
+#submitBtn {
+  background-color: #4285f4;
+  color: #fff;
+  border: none;
+  padding: 0.8em 1.5em;
+  border-radius: 2em;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#submitBtn:hover {
+  background-color: #3367d6;
 }
 
 .swap {
   margin-left: 0.5em;
-  background-color: #000;
-  color: #fff;
-  border: none;
-  padding: 0.5em;
+  background-color: #fff;
+  color: #4285f4;
+  border: 1px solid #4285f4;
+  padding: 0.5em 1em;
   border-radius: 0.5em;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
 
 .swap:hover {
-  background-color: #fff;
-  color: #000;
-  border: 1px solid #000;
+  background-color: #4285f4;
+  color: #fff;
+  border-color: #fff;
 }
