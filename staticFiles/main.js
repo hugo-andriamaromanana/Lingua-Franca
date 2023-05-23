@@ -56,4 +56,10 @@ $(document).ready(function () {
     $("#homeBtn").click(function () {
         window.location.href = "/";
     });
+    $("#ttsBtn").click(function () {
+        var outputText = $("#outputText").val();
+        var languageTo = 'UK English Male'
+    
+        responsiveVoice.speak(outputText, languageTo);
+      });
 });

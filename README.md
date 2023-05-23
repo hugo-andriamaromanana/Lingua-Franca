@@ -64,6 +64,10 @@ The web application presents a form with the following components:
 
 - **History:** Clicking this button will display the history of translations performed in the current session. The history is displayed in a modal window.
 
+### Text-to-Speech
+
+- **Text-to-Speech:** Clicking this button will read the text displayed in the "Output Text" field using the responsivevoiceAPI
+
 ## Screenshots
 
 ### Main Page
