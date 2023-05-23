@@ -13,6 +13,8 @@ Make sure you have the following installed on your system:
 
 - Python (version 3.6 or above)
 - Flask (install via `pip install flask`)
+- Googletrans (install via `pip install googletrans`)
+- Pandas (install via `pip install pandas`)
 
 ## Getting Started
 
@@ -31,8 +33,13 @@ Make sure you have the following installed on your system:
 3. The Flask development server will start running. You should see output similar to the following:
 
    ```
-    * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-    * Restarting with stat
+       * Running on all addresses (0.0.0.0)
+       * Running on http://127.0.0.1:5000
+       * Running on http://172.##.###.###:5000
+      Press CTRL+C to quit
+       * Restarting with stat
+       * Debugger is active!
+       * Debugger PIN: ########
    ```
 
 4. Open a web browser and visit `http://localhost:5000` to access the application. Or using Ctrl+Click on the link above.
