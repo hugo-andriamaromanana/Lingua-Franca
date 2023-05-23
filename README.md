@@ -45,10 +45,22 @@ The web application presents a form with the following components:
 - **Select language (TO):** Choose the target language from the dropdown menu.
 - **Input Text:** Enter the text you want to translate.
 - **Submit:** Click this button to perform the translation.
-
-After submitting the form, the translation will be displayed in the **Output Text** field.
+- **Output Text:** Displays the translated text.
+- **Clear:** Click this button to clear the input and output text fields.
 
 ### Swap Buttons
 
 - **Swap Dropdowns:** Clicking this button will swap the selected values between the "Select language (FROM)" and "Select language (TO)" dropdowns.
 - **Swap Input Text:** Clicking this button will swap the text entered in the "Input Text" field with the text displayed in the "Output Text" field.
+
+### History
+
+- **History:** Clicking this button will display the history of translations performed in the current session. The history is displayed in a modal window.
+
+## Screenshots
+
+### Main Page
+![Screenshot 1](screenshots/screenshot1.JPG)
+
+### History
+![Screenshot 2](screenshots/screenshot2.JPG)
