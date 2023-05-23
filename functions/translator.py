@@ -7,7 +7,7 @@ def detect(text):
     return translator.detect(text).lang
 
 
-def translate(text, dest, src):
-    if src == 'NaN':
-        src = detect(text)
-    return translator.translate(text, dest=dest, src=src).text
+def translate(input_text, language_from, language_to):
+    if language_from == 'NaN':
+        language_from = detect(input_text)
+    return translator.translate(input_text, dest=language_to, src=language_from).text

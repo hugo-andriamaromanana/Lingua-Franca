@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Translation History</title>
+  </head>
+  <body>
+    <h1>Translation History</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Date and Time</th>
+          <th>From Language</th>
+          <th>To Language</th>
+          <th>Input Text</th>
+          <th>Translated Text</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for index, row in history_df.iterrows() %}
+        <tr>
+          <td>{{ row['datetime'] }}</td>
+          <td>{{ row['language_from'] }}</td>
+          <td>{{ row['language_to'] }}</td>
+          <td>{{ row['text_from'] }}</td>
+          <td>{{ row['text_to'] }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </body>
+</html>
