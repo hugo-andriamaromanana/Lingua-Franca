@@ -53,4 +53,7 @@ $(document).ready(function () {
         window.location.href = "/history";
     });
 
+    $("#homeBtn").click(function () {
+        window.location.href = "/";
+    });
 });

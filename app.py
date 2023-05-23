@@ -31,10 +31,9 @@ def dropdown_form():
 
 
 
-@app.route('/history', methods=['GET', 'POST'])
+@app.route('/history', methods=['GET'])
 def history():
     history_df = get_history_df()
-    history_df = history_df.to_html(index=False)
     return render_template('history.html', history_df=history_df)
 
 

@@ -80,3 +80,50 @@ select:focus {
   color: #fff;
   border-color: #fff;
 }
+
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  /* Center h1 */
+  text-align: center;
+  color: #4285f4;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #f1f1f1;
+}
+
+tr:hover {
+  background-color: #f9f9f9;
+}
+
+.return-button {
+  margin-top: 20px;
+}
+
+.return-button a {
+  color: #4285f4;
+  text-decoration: none;
+}
+
+.return-button a:hover {
+  text-decoration: underline;
+}

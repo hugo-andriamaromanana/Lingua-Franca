@@ -7,6 +7,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   </head>
   <body>
+    <h1>Translate Man</h1>
     <form>
       <p>Select language (FROM)</p>
       <select id="language1">
@@ -24,6 +25,9 @@
         <option value="{{ language }}">{{ language }}</option>
         {% endfor %}
       </select>
+      <button class="swap" id="historyBtn" type="button">
+        History
+      </button>
       
       <p id ="input" >Input Text</p>  
       <input type="text" id="inputText" />
