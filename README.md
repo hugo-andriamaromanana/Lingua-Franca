@@ -64,7 +64,7 @@ The web application presents a form with the following components:
 
 - **History:** Clicking this button will display the history of translations performed in the current session. The history is displayed in a modal window.
 
-#### Note: Using a database and querying the database to display the history is not implemented yet. And would have been the wiser choice for a real-world application.
+### Note: Using a database and querying the database to display the history is not implemented yet. And would have been the wiser choice for a real-world application.
 
 ### Text-to-Speech
 
