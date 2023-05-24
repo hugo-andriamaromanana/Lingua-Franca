@@ -1,14 +1,11 @@
 datetime,language_from,language_to,text_from,text_to
-2023-05-23 13:43:01,en,fr,And i wonder if you know,Et je me demande si tu sais
-2023-05-23 14:31:29,en,fr,Everything is corrupted by the government,Tout est corrompu par le gouvernement
-2023-05-23 14:33:16,mg,fr,Andriana Maro Manana,Beaucoup de princes avec
-2023-05-23 14:33:45,fr,mg,J'ai besoin de sel,Mila sira aho
-2023-05-23 15:36:03,en,zh-CN,I am here ,我在这里
-2023-05-23 16:30:12,NaN,fr,i am here,je suis là
-2023-05-23 16:37:31,en,zh-CN,Ice cream,冰淇淋
-2023-05-23 16:38:21,en,it,I hate you mario,Ti odio Mario
-2023-05-23 16:44:02,fr,en,Je suis un homme grand,I am a tall man
-2023-05-23 17:12:09,fr,en,Je suis beau et grand,I am beautiful and tall
-2023-05-23 17:12:14,en,fr,I am beautiful and tall,Je suis beau et grand
-2023-05-23 17:18:06,en,af,Let's go to this place,Kom ons gaan na hierdie plek
-2023-05-23 17:53:59,fr,en,je suis grand homme avec grand reves,I am a great man with great dreams
+"""2023-05-24 07:03:36""","""French""","""Malagasy""","""Il n'y a qu'une seule erreur dans ta vie""","""Misy hadisoana iray ihany amin'ny fiainanao"""
+"""2023-05-24 07:03:56""","""French""","""Malagasy""","""Viser la lune, ça me fait pas peur""","""Tanjona ny volana, tsy mampatahotra ahy izany"""
+"""2023-05-24 07:05:56""","""French""","""Afrikaans""","""Je n'ai qu'une philosophie""","""Ek het 'n enkele filosofie"""
+"""2023-05-24 07:06:06""","""French""","""Albanian""","""Être acceptée comme je suis""","""Të pranohet ashtu siç jam"""
+"""2023-05-24 07:06:26""","""French""","""Arabic""","""Malgré tout ce qu'on me dit""","""على الرغم من كل ما قيل لي"""
+"""2023-05-24 07:06:43""","""French""","""Belarusian""","""Je reste le poing levé""","""Я застаюся са сваім кулаком у паветры"""
+"""2023-05-24 07:06:54""","""French""","""Bulgarian""","""Pour le meilleur comme le pire""","""За по -добро като най -лошото"""
+"""2023-05-24 07:07:05""","""French""","""Catalan""","""Je suis métisse mais pas martyre""","""Sóc Metis, però no martiri"""
+"""2023-05-24 07:07:18""","""French""","""Chinese Simplified""","""J'avance le coeur léger""","""我迈出了轻松的心"""
+"""2023-05-24 07:07:30""","""French""","""Chinese Traditional""","""Mais toujours le poing levé""","""但總是抬高的拳頭"""

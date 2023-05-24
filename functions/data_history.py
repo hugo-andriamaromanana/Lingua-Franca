@@ -23,11 +23,11 @@ def get_history_df():
 
 def add_dic_as_row_in_csv(csv_path, datetime, language_from, language_to, text_from, text_to):
     dic = {
-        'datetime': datetime,
-        'language_from': languages_data_swapped[language_from],
-        'language_to': languages_data_swapped[language_to],
-        'text_from': text_from,
-        'text_to': text_to
+        'datetime': f'"{datetime}"',
+        'language_from': f'"{language_from}"',
+        'language_to': f'"{language_to}"',
+        'text_from': f'"{text_from}"',
+        'text_to': f'"{text_to}"'
     }
     df = pd.DataFrame(dic, index=[-1])
     df.to_csv(csv_path, mode='a', header=False, index=False)
